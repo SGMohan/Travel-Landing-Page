@@ -1,4 +1,4 @@
-Travel Landing Page 
+TRAVEL LANDING PAGE
 
 This project is a travel landing page created using only HTML and CSS. The design includes sections such as:
 
