@@ -17,21 +17,29 @@
     flex-direction: column;
     text-align: center;
   }
-  .container-1,
-  .container-2,
+
   .container-3,
   .container-4,
   .container-6,
   .container-7 {
     flex-direction: column;
   }
-  .image-1 .image-2 .image-3 .image-4 {
+
+  .image .image-1 .image-2 .image-3 .image-4 {
+    flex-direction: row;
+  }
+  .container-1 {
+    flex-direction: row;
+  }
+  .container-2 {
+    margin: unset;
     flex-direction: row;
   }
 
   .container-5 {
     flex-direction: row;
   }
+
   .container-6 {
     flex-direction: column;
     h1 {
@@ -52,9 +60,11 @@
     flex-direction: column;
     align-items: center;
   }
+
   .box {
     flex-direction: column;
   }
+
   .button {
     flex-direction: row;
   }
@@ -75,17 +85,127 @@
     flex-direction: column;
     align-items: center;
   }
+
   .box-3 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
+
   .contents {
     flex-direction: column;
   }
+
   .footer {
     flex-direction: column;
   }
+
+  .card-content-2 {
+    flex-direction: column;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .list-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-nav ul {
+    margin: 0.5rem 0;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container-3,
+  .container-4,
+  .container-6,
+  .container-7 {
+    flex-direction: column;
+  }
+
+  .image .image-1 .image-2 .image-3 .image-4 {
+    flex-direction: row;
+  }
+  .container-1 {
+    flex-direction: row;
+  }
+  .container-2 {
+    margin: unset;
+    flex-direction: row;
+  }
+
+  .container-5 {
+    flex-direction: row;
+  }
+
+  .container-6 {
+    flex-direction: column;
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6,
+  .card-7 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    flex-direction: column;
+  }
+
+  .button {
+    flex-direction: row;
+  }
+
+  .btn-1,
+  .btn-2,
+  .btn-3,
+  .btn-6 {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .container-9 {
+    text-align: center;
+  }
+
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-3 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contents {
+    flex-direction: column;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
   .card-content-2 {
     flex-direction: column;
   }
